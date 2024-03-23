@@ -74,6 +74,7 @@ def main():
                     client_socket.close()
 
                 client_list.clear()
+                client_weights.clear()
             
         except KeyboardInterrupt:
             s.close()
